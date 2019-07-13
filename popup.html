@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<style>
+				body {
+					width : 350px;
+					text-align: center;
+					margin: 20px 10px;
+				}
+
+				button {
+					height: 75px;
+					width: 100px;
+					outline: none;
+					border-radius: 3px;
+					border: none;
+					padding: 0;
+					color: #FFF;
+				}
+
+				.button-container {
+					margin: 25px 0;
+				}
+
+				button:hover {
+					cursor: pointer;
+					opacity: .7;
+				}
+
+				#play-pause {
+					background: green;
+					margin-right: 10px;
+				}
+
+				#next-action {
+					background : rgb(59, 146, 222);
+				}
+			</style>
+
+			<script src="popup.js"></script>
+	</head>
+	<body>
+		<div>
+			<p>Start & Stop test exectution</p>
+		</div>
+		<div class="button-container">
+			<button id="play-pause" data-state="playing">Pause</button>
+			<button id="next-action">Next</button>
+		</div>
+		<div>
+			<p>While paused click the Next button to step through each action.</p>
+		</div>
+	</body>
+  </html>
