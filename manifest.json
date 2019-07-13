@@ -1,7 +1,7 @@
 {
-    "name": "WebdriverIO Pauser",
-    "version": "0.1",
-    "description": "Start & stop execution of test while they are running",
+    "name": "WebdriverIO Debugger",
+    "version": "0.0.1",
+    "description": "Start, Stop and step through WebdriverIO tests",
 	"permissions": ["declarativeContent", "storage"],
 	"background": {
       "scripts": ["background.js"],
@@ -10,7 +10,7 @@
 	"page_action": {
       "default_popup": "popup.html",
 	  "default_icon" : "images/wdio-icon.png",
-	"default_title" : "WebdriverIO Pauser"
+	"default_title" : "WebdriverIO Debugger"
     },
 	"content_scripts": [{
 		"js": ["content.js"],
